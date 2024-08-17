@@ -26,7 +26,7 @@ else
   SHELL_CONFIG="$HOME/.bashrc"
 fi
 
-ZEE_ENV_PATH=$(echo 'source $HOME/.zee/zee_env.sh')
+ZEE_ENV_PATH=$(echo 'source '$HOME'/.zee/zee_env.sh')
 cat $SHELL_CONFIG | grep "$ZEE_ENV_PATH" > /dev/null
 
 if [[ $? -eq 1 ]]; then

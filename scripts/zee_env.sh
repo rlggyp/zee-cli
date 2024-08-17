@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ZEE_WORKSPACE=workspace_name
-ZEE_CONTAINER=container_name
-ZEE_MOUNT_PATH=
-
+_ZEE_WORKSPACE=workspace_name
+_ZEE_CONTAINER=container_name
+_ZEE_MOUNT_PATH=
+_ZEE_MODE=client
